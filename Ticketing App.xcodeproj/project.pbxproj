@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E3CD1DDD2D9FAB4E00DC5D24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3CD1DC42D9FAB4D00DC5D24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3CD1DCB2D9FAB4D00DC5D24;
+			remoteInfo = "Ticketing App";
+		};
+		E3CD1DE72D9FAB4E00DC5D24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3CD1DC42D9FAB4D00DC5D24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3CD1DCB2D9FAB4D00DC5D24;
+			remoteInfo = "Ticketing App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E3CD1DCC2D9FAB4D00DC5D24 /* Ticketing App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ticketing App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3CD1DDC2D9FAB4E00DC5D24 /* Ticketing AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ticketing AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3CD1DE62D9FAB4E00DC5D24 /* Ticketing AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ticketing AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E3CD1DCE2D9FAB4D00DC5D24 /* Ticketing App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Ticketing App";
+			sourceTree = "<group>";
+		};
+		E3CD1DDF2D9FAB4E00DC5D24 /* Ticketing AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Ticketing AppTests";
+			sourceTree = "<group>";
+		};
+		E3CD1DE92D9FAB4E00DC5D24 /* Ticketing AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Ticketing AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3CD1DC92D9FAB4D00DC5D24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3CD1DD92D9FAB4E00DC5D24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3CD1DE32D9FAB4E00DC5D24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3CD1DC32D9FAB4D00DC5D24 = {
+			isa = PBXGroup;
+			children = (
+				E3CD1DCE2D9FAB4D00DC5D24 /* Ticketing App */,
+				E3CD1DDF2D9FAB4E00DC5D24 /* Ticketing AppTests */,
+				E3CD1DE92D9FAB4E00DC5D24 /* Ticketing AppUITests */,
+				E3CD1DCD2D9FAB4D00DC5D24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3CD1DCD2D9FAB4D00DC5D24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3CD1DCC2D9FAB4D00DC5D24 /* Ticketing App.app */,
+				E3CD1DDC2D9FAB4E00DC5D24 /* Ticketing AppTests.xctest */,
+				E3CD1DE62D9FAB4E00DC5D24 /* Ticketing AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3CD1DCB2D9FAB4D00DC5D24 /* Ticketing App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3CD1DF02D9FAB4E00DC5D24 /* Build configuration list for PBXNativeTarget "Ticketing App" */;
+			buildPhases = (
+				E3CD1DC82D9FAB4D00DC5D24 /* Sources */,
+				E3CD1DC92D9FAB4D00DC5D24 /* Frameworks */,
+				E3CD1DCA2D9FAB4D00DC5D24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E3CD1DCE2D9FAB4D00DC5D24 /* Ticketing App */,
+			);
+			name = "Ticketing App";
+			packageProductDependencies = (
+			);
+			productName = "Ticketing App";
+			productReference = E3CD1DCC2D9FAB4D00DC5D24 /* Ticketing App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3CD1DDB2D9FAB4E00DC5D24 /* Ticketing AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3CD1DF32D9FAB4E00DC5D24 /* Build configuration list for PBXNativeTarget "Ticketing AppTests" */;
+			buildPhases = (
+				E3CD1DD82D9FAB4E00DC5D24 /* Sources */,
+				E3CD1DD92D9FAB4E00DC5D24 /* Frameworks */,
+				E3CD1DDA2D9FAB4E00DC5D24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3CD1DDE2D9FAB4E00DC5D24 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E3CD1DDF2D9FAB4E00DC5D24 /* Ticketing AppTests */,
+			);
+			name = "Ticketing AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Ticketing AppTests";
+			productReference = E3CD1DDC2D9FAB4E00DC5D24 /* Ticketing AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E3CD1DE52D9FAB4E00DC5D24 /* Ticketing AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3CD1DF62D9FAB4E00DC5D24 /* Build configuration list for PBXNativeTarget "Ticketing AppUITests" */;
+			buildPhases = (
+				E3CD1DE22D9FAB4E00DC5D24 /* Sources */,
+				E3CD1DE32D9FAB4E00DC5D24 /* Frameworks */,
+				E3CD1DE42D9FAB4E00DC5D24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3CD1DE82D9FAB4E00DC5D24 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E3CD1DE92D9FAB4E00DC5D24 /* Ticketing AppUITests */,
+			);
+			name = "Ticketing AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "Ticketing AppUITests";
+			productReference = E3CD1DE62D9FAB4E00DC5D24 /* Ticketing AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3CD1DC42D9FAB4D00DC5D24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					E3CD1DCB2D9FAB4D00DC5D24 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E3CD1DDB2D9FAB4E00DC5D24 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E3CD1DCB2D9FAB4D00DC5D24;
+					};
+					E3CD1DE52D9FAB4E00DC5D24 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E3CD1DCB2D9FAB4D00DC5D24;
+					};
+				};
+			};
+			buildConfigurationList = E3CD1DC72D9FAB4D00DC5D24 /* Build configuration list for PBXProject "Ticketing App" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3CD1DC32D9FAB4D00DC5D24;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E3CD1DCD2D9FAB4D00DC5D24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3CD1DCB2D9FAB4D00DC5D24 /* Ticketing App */,
+				E3CD1DDB2D9FAB4E00DC5D24 /* Ticketing AppTests */,
+				E3CD1DE52D9FAB4E00DC5D24 /* Ticketing AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3CD1DCA2D9FAB4D00DC5D24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3CD1DDA2D9FAB4E00DC5D24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3CD1DE42D9FAB4E00DC5D24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3CD1DC82D9FAB4D00DC5D24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3CD1DD82D9FAB4E00DC5D24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3CD1DE22D9FAB4E00DC5D24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3CD1DDE2D9FAB4E00DC5D24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3CD1DCB2D9FAB4D00DC5D24 /* Ticketing App */;
+			targetProxy = E3CD1DDD2D9FAB4E00DC5D24 /* PBXContainerItemProxy */;
+		};
+		E3CD1DE82D9FAB4E00DC5D24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3CD1DCB2D9FAB4D00DC5D24 /* Ticketing App */;
+			targetProxy = E3CD1DE72D9FAB4E00DC5D24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E3CD1DEE2D9FAB4E00DC5D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3CD1DEF2D9FAB4E00DC5D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3CD1DF12D9FAB4E00DC5D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ticketing App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5LKH96N389;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Innobles.Ticketing-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3CD1DF22D9FAB4E00DC5D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ticketing App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5LKH96N389;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Innobles.Ticketing-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E3CD1DF42D9FAB4E00DC5D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5LKH96N389;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Innobles.Ticketing-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ticketing App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ticketing App";
+			};
+			name = Debug;
+		};
+		E3CD1DF52D9FAB4E00DC5D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5LKH96N389;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Innobles.Ticketing-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ticketing App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ticketing App";
+			};
+			name = Release;
+		};
+		E3CD1DF72D9FAB4E00DC5D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5LKH96N389;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Innobles.Ticketing-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ticketing App";
+			};
+			name = Debug;
+		};
+		E3CD1DF82D9FAB4E00DC5D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5LKH96N389;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Innobles.Ticketing-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ticketing App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3CD1DC72D9FAB4D00DC5D24 /* Build configuration list for PBXProject "Ticketing App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3CD1DEE2D9FAB4E00DC5D24 /* Debug */,
+				E3CD1DEF2D9FAB4E00DC5D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3CD1DF02D9FAB4E00DC5D24 /* Build configuration list for PBXNativeTarget "Ticketing App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3CD1DF12D9FAB4E00DC5D24 /* Debug */,
+				E3CD1DF22D9FAB4E00DC5D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3CD1DF32D9FAB4E00DC5D24 /* Build configuration list for PBXNativeTarget "Ticketing AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3CD1DF42D9FAB4E00DC5D24 /* Debug */,
+				E3CD1DF52D9FAB4E00DC5D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3CD1DF62D9FAB4E00DC5D24 /* Build configuration list for PBXNativeTarget "Ticketing AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3CD1DF72D9FAB4E00DC5D24 /* Debug */,
+				E3CD1DF82D9FAB4E00DC5D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3CD1DC42D9FAB4D00DC5D24 /* Project object */;
+}
