@@ -5,14 +5,53 @@
 //  Created by nikhil tiwari on 08/04/25.
 //
 
-import SwiftUI
 
-struct SideMenuOptionDataMedel: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+
+import Foundation
+
+enum SideMenuOptionDataMedel : Int, CaseIterable {
+    case DownloadTicket = 0
+    case profile = 1
+    case RtdcPolicy = 2
+    case logout = 3
+   
+    
+    var title: String {
+        switch self {
+        case .DownloadTicket:
+            return "My Tickets"
+        case .profile:
+            return "Update Profile"
+       
+    case .RtdcPolicy:
+        return "Privacy & Policy"
+        case .logout:
+            return "Logout"
+       
+        
+   
+    }
+    }
+
+    var systemImageName: String {
+        switch self {
+        case .DownloadTicket:
+            return "square.and.arrow.down"
+        case .profile:
+            return "person.crop.circle"
+       
+        case .RtdcPolicy:
+            return "doc.plaintext"
+        case .logout:
+            return "person"
+     
+    }
     }
 }
 
-#Preview {
-    SideMenuOptionDataMedel()
+extension SideMenuOptionDataMedel : Identifiable {
+    var id: Int {
+        return self.rawValue
+    }
 }
+

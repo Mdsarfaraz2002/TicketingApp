@@ -7,12 +7,16 @@
 
 import SwiftUI
 
-struct CircleTextView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+struct CircleText: View {
+    let text: String
+    let bgColor: Color
 
-#Preview {
-    CircleTextView()
+    var body: some View {
+        Text(text)
+            .font(.caption)
+            .foregroundColor(.white)
+            .frame(width: 28, height: 28)
+            .background(bgColor)
+            .clipShape(Circle())
+    }
 }

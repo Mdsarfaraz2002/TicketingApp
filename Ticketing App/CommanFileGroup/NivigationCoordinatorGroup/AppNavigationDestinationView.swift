@@ -5,14 +5,26 @@
 //  Created by nikhil tiwari on 07/04/25.
 //
 
-import SwiftUI
-
-struct AppNavigationDestinationView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-#Preview {
-    AppNavigationDestinationView()
-}
+//import SwiftUI
+//
+//
+//struct AppNavigationDestination: View {
+//    let destination: AppScreen
+//    @Binding var mobileNumber: String
+//    @ObservedObject var coordinator: AppCoordinator
+//    @State private var selectedDetailsTab = 0  // Add this state variable
+//    
+//    var body: some View {
+//        switch destination {
+//        case .otp:
+//            OtpVerificationView(mobileNumber: $mobileNumber)
+//
+//        case .content:
+//            //ContentView(coordinator: coordinator)
+//            HomeView()
+////        case .detailsList:
+////            ParkDetailsListView()
+//        
+//        }
+//    }
+//}

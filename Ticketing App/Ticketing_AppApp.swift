@@ -9,12 +9,16 @@ import SwiftUI
 
 @main
 struct Ticketing_AppApp: App {
-    @StateObject var coordinator = AppCoordinator()
+    //@StateObject var coordinator = AppCoordinator()
     var body: some Scene {
         WindowGroup {
            // ContentView()
-            SplashView()
-                .environmentObject(coordinator)
+           // NavigationStack{
+                SplashView()
+                    //.environmentObject()
+                // ParkDetailsListView()
+            
+            
         }
     }
 }

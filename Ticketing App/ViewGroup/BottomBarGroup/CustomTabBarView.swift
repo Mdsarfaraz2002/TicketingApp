@@ -16,6 +16,7 @@ struct CustomTabBar: View {
     @Binding var selectedTab: Tab
 
     var body: some View {
+        
         ZStack {
             Color.black
                 .frame(height: 90)
@@ -29,12 +30,6 @@ struct CustomTabBar: View {
                 TabBarButton(icon: "person.fill", label: "Profile", tab: .profile, selectedTab: $selectedTab)
             }
             .padding(.horizontal, 40)
-
-            // Home indicator mimic
-            RoundedRectangle(cornerRadius: 10)
-                .fill(Color.white)
-                .frame(width: 130, height: 5)
-                .offset(y: 30)
         }
     }
 }
@@ -43,14 +38,7 @@ struct CustomTabBar: View {
 
 
 
-struct HomeView: View {
-    var body: some View {
-        VStack {
-            Text("🏠 Home View")
-                .font(.largeTitle)
-        }
-    }
-}
+
 
 struct BookingsView: View {
     var body: some View {

@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4C2720D42F6B2D766DA295FC /* Pods_Ticketing_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5BF783F5DCBB86B31A8E00C /* Pods_Ticketing_App.framework */; };
+		7ECFF077097526F95E93B6EB /* Pods_Ticketing_App_Ticketing_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CB09B1D667D466F2C978CA /* Pods_Ticketing_App_Ticketing_AppUITests.framework */; };
+		A8FA702882B4559E90CF6C65 /* Pods_Ticketing_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBAEA20E6077792403697134 /* Pods_Ticketing_AppTests.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		E3CD1DDD2D9FAB4E00DC5D24 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,25 +30,114 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05E5D74E0BC5E711D09D5339 /* Pods-Ticketing App-Ticketing AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ticketing App-Ticketing AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Ticketing App-Ticketing AppUITests/Pods-Ticketing App-Ticketing AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		38E736AFED5F846D726D2572 /* Pods-Ticketing AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ticketing AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Ticketing AppTests/Pods-Ticketing AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		58CB09B1D667D466F2C978CA /* Pods_Ticketing_App_Ticketing_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ticketing_App_Ticketing_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7661D2CBEFE02C18BDFAC0B0 /* Pods-Ticketing App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ticketing App.release.xcconfig"; path = "Target Support Files/Pods-Ticketing App/Pods-Ticketing App.release.xcconfig"; sourceTree = "<group>"; };
+		A1715134DC5A97EEF9FFE701 /* Pods-Ticketing App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ticketing App.debug.xcconfig"; path = "Target Support Files/Pods-Ticketing App/Pods-Ticketing App.debug.xcconfig"; sourceTree = "<group>"; };
+		B1ADA886ADA26F60B946AE22 /* Pods-Ticketing AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ticketing AppTests.release.xcconfig"; path = "Target Support Files/Pods-Ticketing AppTests/Pods-Ticketing AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B5BF783F5DCBB86B31A8E00C /* Pods_Ticketing_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ticketing_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3CD1DCC2D9FAB4D00DC5D24 /* Ticketing App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ticketing App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3CD1DDC2D9FAB4E00DC5D24 /* Ticketing AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ticketing AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3CD1DE62D9FAB4E00DC5D24 /* Ticketing AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ticketing AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBAEA20E6077792403697134 /* Pods_Ticketing_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ticketing_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7C28C29C4F26F4FB6DC8F0 /* Pods-Ticketing App-Ticketing AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ticketing App-Ticketing AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Ticketing App-Ticketing AppUITests/Pods-Ticketing App-Ticketing AppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		E3CD1DCE2D9FAB4D00DC5D24 /* Ticketing App */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Ticketing App";
-			sourceTree = "<group>";
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E3CD1E812D9FE46800DC5D24 /* Exceptions for "Ticketing App" folder in "Ticketing App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				CommanFileGroup/NivigationCoordinatorGroup/AppCoordinator.swift,
+				CommanFileGroup/NivigationCoordinatorGroup/AppNavigationDestinationView.swift,
+				CommanFileGroup/NivigationCoordinatorGroup/SideMenuGroup/SideMenuHeaderView.swift,
+				CommanFileGroup/NivigationCoordinatorGroup/SideMenuGroup/SideMenuOptionDataMedel.swift,
+				CommanFileGroup/NivigationCoordinatorGroup/SideMenuGroup/SideMenuRowView.swift,
+				CommanFileGroup/NivigationCoordinatorGroup/SideMenuGroup/SideMenuView.swift,
+				CommanFileGroup/NivigationCoordinatorGroup/UitilitiesGroup/ApiConstant.swift,
+				CommanFileGroup/NivigationCoordinatorGroup/UitilitiesGroup/Color.swift,
+				CommanFileGroup/NivigationCoordinatorGroup/UitilitiesGroup/FloadingTextFieldGroup/FloatingTextField.swift,
+				CommanFileGroup/NivigationCoordinatorGroup/UitilitiesGroup/FloadingTextFieldGroup/FloatingTextFieldOtp.swift,
+				CommanFileGroup/NivigationCoordinatorGroup/UitilitiesGroup/UserDefaultsData.swift,
+				CommanFileGroup/SplashGroup/SplashView.swift,
+				ContentView.swift,
+				ModelsGroup/HomeModel.swift,
+				ModelsGroup/SendOtpModel.swift,
+				Ticketing_AppApp.swift,
+				ViewGroup/BottomBarGroup/CustomTabBarView.swift,
+				ViewGroup/BottomBarGroup/TabBarButtonView.swift,
+				ViewGroup/HomeGroup/CircleTextView.swift,
+				ViewGroup/HomeGroup/HomeView.swift,
+				ViewGroup/HomeGroup/ParkCardView.swift,
+				ViewGroup/LoginGroup/LoginView.swift,
+				ViewGroup/LoginGroup/OtpVerificationView.swift,
+				ViewGroup/ParkDetailsGroup/DaysView.swift,
+				ViewGroup/ParkDetailsGroup/OpeningHoursView.swift,
+				ViewGroup/ParkDetailsGroup/ParkDetailsListView.swift,
+				ViewGroup/ParkDetailsGroup/ReadMoreTextView.swift,
+				ViewGroup/ParkDetailsGroup/TicketCardView.swift,
+				ViewGroup/ParkDetailsGroup/WrapTagsView.swift,
+				ViewModelGroup/APIEndpoint.swift,
+				ViewModelGroup/APIService.swift,
+				ViewModelGroup/HomeViewModel.swift,
+				ViewModelGroup/OTPGroup/OtpTimerManager.swift,
+				ViewModelGroup/OTPGroup/SendOtpViewModel.swift,
+			);
+			target = E3CD1DCB2D9FAB4D00DC5D24 /* Ticketing App */;
 		};
+		E3CD1E822D9FE46800DC5D24 /* Exceptions for "Ticketing App" folder in "Ticketing AppUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				CommanFileGroup/NivigationCoordinatorGroup/AppCoordinator.swift,
+				CommanFileGroup/NivigationCoordinatorGroup/AppNavigationDestinationView.swift,
+				CommanFileGroup/SplashGroup/SplashView.swift,
+				ContentView.swift,
+				Ticketing_AppApp.swift,
+				ViewGroup/LoginGroup/LoginView.swift,
+				ViewGroup/LoginGroup/OtpVerificationView.swift,
+			);
+			target = E3CD1DE52D9FAB4E00DC5D24 /* Ticketing AppUITests */;
+		};
+		E3CD1F6D2DA1034700DC5D24 /* Exceptions for "Ticketing AppTests" folder in "Ticketing App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Preview Content/Preview Assets.xcassets",
+			);
+			target = E3CD1DCB2D9FAB4D00DC5D24 /* Ticketing App */;
+		};
+		E3CD1F6E2DA1034700DC5D24 /* Exceptions for "Ticketing AppTests" folder in "Ticketing AppTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Preview Content/Preview Assets.xcassets",
+			);
+			target = E3CD1DDB2D9FAB4E00DC5D24 /* Ticketing AppTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
 		E3CD1DDF2D9FAB4E00DC5D24 /* Ticketing AppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E3CD1F6D2DA1034700DC5D24 /* Exceptions for "Ticketing AppTests" folder in "Ticketing App" target */,
+				E3CD1F6E2DA1034700DC5D24 /* Exceptions for "Ticketing AppTests" folder in "Ticketing AppTests" target */,
+			);
 			path = "Ticketing AppTests";
 			sourceTree = "<group>";
 		};
 		E3CD1DE92D9FAB4E00DC5D24 /* Ticketing AppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Ticketing AppUITests";
+			sourceTree = "<group>";
+		};
+		E3CD1E782D9FE46800DC5D24 /* Ticketing App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E3CD1E812D9FE46800DC5D24 /* Exceptions for "Ticketing App" folder in "Ticketing App" target */,
+				E3CD1E822D9FE46800DC5D24 /* Exceptions for "Ticketing App" folder in "Ticketing AppUITests" target */,
+			);
+			path = "Ticketing App";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C2720D42F6B2D766DA295FC /* Pods_Ticketing_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8FA702882B4559E90CF6C65 /* Pods_Ticketing_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,19 +163,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ECFF077097526F95E93B6EB /* Pods_Ticketing_App_Ticketing_AppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB4106876EFA7E9B6669CC2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1715134DC5A97EEF9FFE701 /* Pods-Ticketing App.debug.xcconfig */,
+				7661D2CBEFE02C18BDFAC0B0 /* Pods-Ticketing App.release.xcconfig */,
+				05E5D74E0BC5E711D09D5339 /* Pods-Ticketing App-Ticketing AppUITests.debug.xcconfig */,
+				FD7C28C29C4F26F4FB6DC8F0 /* Pods-Ticketing App-Ticketing AppUITests.release.xcconfig */,
+				38E736AFED5F846D726D2572 /* Pods-Ticketing AppTests.debug.xcconfig */,
+				B1ADA886ADA26F60B946AE22 /* Pods-Ticketing AppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E3CD1DC32D9FAB4D00DC5D24 = {
 			isa = PBXGroup;
 			children = (
-				E3CD1DCE2D9FAB4D00DC5D24 /* Ticketing App */,
+				E3CD1E782D9FE46800DC5D24 /* Ticketing App */,
 				E3CD1DDF2D9FAB4E00DC5D24 /* Ticketing AppTests */,
 				E3CD1DE92D9FAB4E00DC5D24 /* Ticketing AppUITests */,
 				E3CD1DCD2D9FAB4D00DC5D24 /* Products */,
+				AB4106876EFA7E9B6669CC2E /* Pods */,
+				E8F0573F17D792CE94A418E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +205,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		E8F0573F17D792CE94A418E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5BF783F5DCBB86B31A8E00C /* Pods_Ticketing_App.framework */,
+				58CB09B1D667D466F2C978CA /* Pods_Ticketing_App_Ticketing_AppUITests.framework */,
+				FBAEA20E6077792403697134 /* Pods_Ticketing_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3CD1DF02D9FAB4E00DC5D24 /* Build configuration list for PBXNativeTarget "Ticketing App" */;
 			buildPhases = (
+				88F03C43FF2B7BB2112E6EE4 /* [CP] Check Pods Manifest.lock */,
 				E3CD1DC82D9FAB4D00DC5D24 /* Sources */,
 				E3CD1DC92D9FAB4D00DC5D24 /* Frameworks */,
 				E3CD1DCA2D9FAB4D00DC5D24 /* Resources */,
@@ -107,12 +231,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				E3CD1DCE2D9FAB4D00DC5D24 /* Ticketing App */,
-			);
 			name = "Ticketing App";
-			packageProductDependencies = (
-			);
 			productName = "Ticketing App";
 			productReference = E3CD1DCC2D9FAB4D00DC5D24 /* Ticketing App.app */;
 			productType = "com.apple.product-type.application";
@@ -121,9 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3CD1DF32D9FAB4E00DC5D24 /* Build configuration list for PBXNativeTarget "Ticketing AppTests" */;
 			buildPhases = (
+				A07BCBF9380C80D4741A05C1 /* [CP] Check Pods Manifest.lock */,
 				E3CD1DD82D9FAB4E00DC5D24 /* Sources */,
 				E3CD1DD92D9FAB4E00DC5D24 /* Frameworks */,
 				E3CD1DDA2D9FAB4E00DC5D24 /* Resources */,
+				36D1481A400FE5699D0BCDFE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,8 +255,6 @@
 				E3CD1DDF2D9FAB4E00DC5D24 /* Ticketing AppTests */,
 			);
 			name = "Ticketing AppTests";
-			packageProductDependencies = (
-			);
 			productName = "Ticketing AppTests";
 			productReference = E3CD1DDC2D9FAB4E00DC5D24 /* Ticketing AppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,6 +263,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3CD1DF62D9FAB4E00DC5D24 /* Build configuration list for PBXNativeTarget "Ticketing AppUITests" */;
 			buildPhases = (
+				8F3BE03DE08DCD1EE4C4D488 /* [CP] Check Pods Manifest.lock */,
 				E3CD1DE22D9FAB4E00DC5D24 /* Sources */,
 				E3CD1DE32D9FAB4E00DC5D24 /* Frameworks */,
 				E3CD1DE42D9FAB4E00DC5D24 /* Resources */,
@@ -155,10 +275,9 @@
 			);
 			fileSystemSynchronizedGroups = (
 				E3CD1DE92D9FAB4E00DC5D24 /* Ticketing AppUITests */,
+				E3CD1E782D9FE46800DC5D24 /* Ticketing App */,
 			);
 			name = "Ticketing AppUITests";
-			packageProductDependencies = (
-			);
 			productName = "Ticketing AppUITests";
 			productReference = E3CD1DE62D9FAB4E00DC5D24 /* Ticketing AppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -230,6 +349,92 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36D1481A400FE5699D0BCDFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ticketing AppTests/Pods-Ticketing AppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ticketing AppTests/Pods-Ticketing AppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ticketing AppTests/Pods-Ticketing AppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88F03C43FF2B7BB2112E6EE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ticketing App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F3BE03DE08DCD1EE4C4D488 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ticketing App-Ticketing AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A07BCBF9380C80D4741A05C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ticketing AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E3CD1DC82D9FAB4D00DC5D24 /* Sources */ = {
@@ -390,12 +595,12 @@
 		};
 		E3CD1DF12D9FAB4E00DC5D24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1715134DC5A97EEF9FFE701 /* Pods-Ticketing App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Ticketing App/Preview Content\"";
 				DEVELOPMENT_TEAM = 5LKH96N389;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -419,6 +624,7 @@
 		};
 		E3CD1DF22D9FAB4E00DC5D24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7661D2CBEFE02C18BDFAC0B0 /* Pods-Ticketing App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,6 +654,7 @@
 		};
 		E3CD1DF42D9FAB4E00DC5D24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38E736AFED5F846D726D2572 /* Pods-Ticketing AppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +674,7 @@
 		};
 		E3CD1DF52D9FAB4E00DC5D24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1ADA886ADA26F60B946AE22 /* Pods-Ticketing AppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +694,7 @@
 		};
 		E3CD1DF72D9FAB4E00DC5D24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05E5D74E0BC5E711D09D5339 /* Pods-Ticketing App-Ticketing AppUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -503,6 +712,7 @@
 		};
 		E3CD1DF82D9FAB4E00DC5D24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD7C28C29C4F26F4FB6DC8F0 /* Pods-Ticketing App-Ticketing AppUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

@@ -8,11 +8,18 @@
 import SwiftUI
 
 struct DaysView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+    let days = ["M", "T", "W", "T", "F", "S", "S"]
 
-#Preview {
-    DaysView()
+    var body: some View {
+        HStack(spacing: 4) {
+            ForEach(0..<7, id: \.self) { index in
+                Text(days[index])
+                    .font(.caption2)
+                    .foregroundColor(.white)
+                    .frame(width: 26, height: 26)
+                    .background(index < 5 ? Color.black : Color.pink)
+                    .clipShape(Circle())
+            }
+        }
+    }
 }
