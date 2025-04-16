@@ -2,7 +2,7 @@
 //  Ticketing_AppApp.swift
 //  Ticketing App
 //
-//  Created by nikhil tiwari on 04/04/25.
+//  Created by Mohd Sarfaraz  on 04/04/25.
 //
 
 import SwiftUI
@@ -12,13 +12,8 @@ struct Ticketing_AppApp: App {
     //@StateObject var coordinator = AppCoordinator()
     var body: some Scene {
         WindowGroup {
-           // ContentView()
-           // NavigationStack{
                 SplashView()
-                    //.environmentObject()
-                // ParkDetailsListView()
-            
-            
+               
         }
     }
 }

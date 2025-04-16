@@ -2,7 +2,7 @@
 //  OtpScreenView.swift
 //  Ticketing App
 //
-//  Created by nikhil tiwari on 04/04/25.
+//  Created by Mohd Sarfaraz  on 04/04/25.
 //
 
 import SwiftUI
@@ -14,6 +14,7 @@ struct OtpVerificationView: View {
     @Binding var mobileNumber: String
     @State private var navigateHome = false
     @State private var selectedTab: Tab = .home
+    @Environment(\.dismiss) var dismiss
     var body: some View {
        // NavigationStack {
         VStack {
@@ -155,7 +156,14 @@ struct OtpVerificationView: View {
         .navigationBarBackButtonHidden(true)
         .toolbar {
             ToolbarItem(placement: .navigationBarLeading) {
-                // coordinator.customBackButton(action: coordinator.goBack, color: .black)
+                Button(action: {
+                    dismiss()
+                }) {
+                    Image(systemName: "chevron.left")
+                        .font(.system(size:18))
+                        .bold()
+                        .foregroundStyle(Color.black)
+                }
             }
         }
         

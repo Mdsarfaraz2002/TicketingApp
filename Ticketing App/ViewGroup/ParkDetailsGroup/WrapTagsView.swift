@@ -2,7 +2,7 @@
 //  WrapTagsView.swift
 //  Ticketing App
 //
-//  Created by nikhil tiwari on 09/04/25.
+//  Created by Mohd Sarfaraz  on 09/04/25.
 //
 
 import SwiftUI
@@ -46,8 +46,6 @@ struct FlexibleTagWrapView: View {
                             .font(.caption)
                             .padding(.horizontal, 10)
                             .padding(.vertical, 4)
-                            //.background(Color.gray.opacity(0.2))
-                           // .cornerRadius(16)
                             .overlay(
                                 RoundedRectangle(cornerRadius: 16)
                                     .stroke(Color.gray.opacity(0.4), lineWidth: 0.5)

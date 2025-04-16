@@ -2,131 +2,173 @@
 //  ParkDetailsListView.swift
 //  Ticketing App
 //
-//  Created by nikhil tiwari on 09/04/25.
+//  Created by Mohd Sarfaraz  on 09/04/25.
 //
 
 
 import SwiftUI
-
+import CoreLocation
 struct ParkDetailsListView: View {
+    @State private var userLocation: CLLocationCoordinate2D?
     let ticket: Ticket
     @State private var showSheet = false
+    @State private var ticketBookingSheet = false
     @Environment(\.dismiss) var dismiss
     var body: some View {
         NavigationStack {
             ZStack{
-                ScrollView(showsIndicators: false) {
-                    VStack(alignment: .leading, spacing: 16) {
-                        
-                        // Header
-                        VStack(alignment: .leading, spacing: 8) {
-                            //                        HStack(alignment: .top) {
-                            //                            Button(action:{
-                            //                                dismiss()
-                            //                            }){
-                            //                                Image(systemName: "chevron.left")
-                            //                                    .font(.title3)
-                            //                                    .foregroundStyle(Color.black)
-                            //                            }
-                            //                         //   Text("Happiness Park long name")
-                            //                            Text(ticket.bookingType ?? "")
-                            //                                .font(.title3.bold())
-                            //                                .lineLimit(2)
-                            //                            Spacer()
-                            //                        }
-                            ReadMoreTextView(fullText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus purus non ips.a hiqjwg jad kg")
-                                .padding(.horizontal)
-                            HStack(spacing: 10) {
-                                Label("Open", systemImage: "circle.fill")
-                                    .font(.caption)
-                                    .foregroundColor(.green)
-                                Text("10:00 AM - 09:00 PM")
-                                    .font(.caption)
-                                    .foregroundColor(.black)
-                                Button(action: {
-                                    
-                                    withAnimation(.spring(response: 0.5, dampingFraction: 0.8)) {
-                                        showSheet.toggle()
-                                    }
-                                    
-                                }){
-                                    Image(systemName: "chevron.down")
-                                        .foregroundStyle(Color.gray)
-                                    
-                                }
+                VStack {
+                    VStack(alignment: .leading, spacing: 8) {
+                        Button(action: {
+                            dismiss()
+                        }) {
+                            HStack(alignment: .top) {
+                                Image(systemName: "chevron.left")
+                                    .font(.system(size: 20))
+                                    .bold()
+                                    .foregroundStyle(Color.white)
+                                Text(ticket.bookingType ?? "")
+                                    .foregroundStyle(Color.white)
+                                    .font(.system(size: 20))
+                                    .bold()
+                                
                                 Spacer()
-                                Text("2.3 kms away")
-                                    .font(.caption)
-                                    .foregroundColor(.black)
+                            }
+                        }
+                        
+                        ReadMoreTextView(fullText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus purus non ips.a hiqjwg jad kg", color: .white)
+                        
+                        HStack(spacing: 10) {
+                            Label("Open", systemImage: "circle.fill")
+                                .font(.caption)
+                                .foregroundColor(.green)
+                            Text("10:00 AM - 09:00 PM")
+                                .font(.caption)
+                                .foregroundColor(.white)
+                            Button(action: {
+                                
+                                withAnimation(.spring(response: 0.5, dampingFraction: 0.8)) {
+                                    showSheet.toggle()
+                                }
+                                
+                            }){
+                                Image(systemName: "chevron.down")
+                                    .foregroundStyle(Color.gray)
+                                
+                            }
+                            Spacer()
+                            Text("2.3 kms away")
+                                .font(.caption)
+                                .foregroundColor(.white)
+                            Button(action:{
+                                MapHelper.openDirections(to: CLLocationCoordinate2D(latitude: 26.834899, longitude: 80.988686))
+                            }){
                                 Image(systemName: "location.fill")
                                     .foregroundColor(.blue)
                             }
-                            
-                            Divider()
-                        }
-                        .padding(.horizontal)
+                        }.padding(.vertical,4)
                         
+                        Divider()
+                    }.padding(.horizontal,6)
+                        .background(Color.black)
+                    
+                    ScrollView(showsIndicators: false) {
                         // Ticket Sections
                         ForEach(0..<5,id: \.self) { _ in
                             
-                            TicketCardView(title: "Entry Ticket")
-                            TicketCardView(title: "Jurassic Park Ticket")
+                            TicketCardView(title: "Entry Ticket", ticketBookingSheet: $ticketBookingSheet)
+                                .padding(.top)
+                            TicketCardView(title: "Jurassic Park Ticket", ticketBookingSheet: $ticketBookingSheet)
+                                .padding(.top)
                         }
                     }
-                    .padding(.bottom, 30)
+                   
                 }
                 
-                
                 if showSheet {
-                    Color.black.opacity(0.4)
-                        .ignoresSafeArea()
+                    Color.black.opacity(0.6)
+                        .edgesIgnoringSafeArea(.all)
                         .transition(.opacity)
-                        .onTapGesture {
-                            withAnimation(.easeOut) {
-                                showSheet = false
-                            }
-                        }
+                        .animation(.easeInOut, value: showSheet)
+                    
                 }
-                
-                if showSheet {
-                    OpeningHoursView {
-                        withAnimation(.spring()) {
-                            showSheet = false
-                        }
-                    }
-                    .transition(
-                        AnyTransition
-                            .move(edge: .top)
-                            .combined(with: .opacity)
-                            .combined(with: .scale(scale: 0.95, anchor: .top))
-                    )
-                    .zIndex(2)
+                if ticketBookingSheet {
+                    Color.black.opacity(0.6)
+                        .edgesIgnoringSafeArea(.all)
+                        .transition(.opacity)
+                        .animation(.easeInOut, value: ticketBookingSheet)
+                    
                 }
-                
                 
             }
+            .sheet(isPresented: $showSheet) {
+                OpeningHoursView {
+                    withAnimation(.spring()) {
+                        showSheet = false
+                    }
+                    
+                }
+                .presentationDetents([.medium, .large])
+                .interactiveDismissDisabled(true)
+                .presentationDragIndicator(.hidden)
+                .presentationBackground(.clear)
+                .presentationCornerRadius(20)
+               
+            }
+            
+            .sheet(isPresented: $ticketBookingSheet) {
+                TicketBookingView {
+                    withAnimation(.spring()) {
+                        ticketBookingSheet = false
+                    }
+                    
+                }
+                .presentationDetents([.fraction(0.8)])
+                .interactiveDismissDisabled(true)
+                .presentationDragIndicator(.hidden)
+                .presentationBackground(.clear)
+                .presentationCornerRadius(20)
+               
+               
+            }
+            
+           
+
+
+
         }
         .navigationBarBackButtonHidden(true)
-        .background(Color.white.ignoresSafeArea())
-        .navigationBarTitleDisplayMode(.inline)
-        .toolbarBackground(Color(hex:0x252525), for: .navigationBar)
-    
-        .toolbar {
-            ToolbarItem(placement: .navigationBarLeading) {
-                Button(action: {
-                    dismiss()
-                }) {
-                           Image(systemName: "arrow.left")
-                               .bold()
-                               .foregroundColor(Color.white)
-                               .font(.title3)
-                       }
-            }
-        }
+//        .navigationBarTitleDisplayMode(.inline)
+//        .background(Color.white.ignoresSafeArea())
+//        .toolbarBackground(.visible, for: .navigationBar)
+//        .toolbarBackground(Color.black, for: .navigationBar)
+//        .toolbar {
+//            ToolbarItem(placement: .navigationBarLeading) {
+//                HStack(alignment: .top) {
+//                    Button(action: {
+//                        dismiss()
+//                    }) {
+//                        Image(systemName: "chevron.left")
+//                            .font(.system(size:16))
+//                            .bold()
+//                            .foregroundStyle(Color.white)
+//                    }
+//                    Text(ticket.bookingType ?? "")
+//                        .foregroundStyle(Color.white)
+//                        .font(.system(size: 20))
+//                        .bold()
+//                        .lineLimit(2)
+//                        .padding(.top,4)
+//                    Spacer()
+//                }
+//            }
+//        }
+
         
         
     }
+   
+    
 }
-
 
 

@@ -2,47 +2,8 @@
 //  HomeViewModel.swift
 //  Ticketing App
 //
-//  Created by nikhil tiwari on 07/04/25.
+//  Created by Mohd Sarfaraz  on 07/04/25.
 //
-
-
-//import Alamofire
-//import Foundation
-//import Combine
-//
-//class HomeViewModel: ObservableObject {
-//    @Published var homeModel: HomeModel?
-//    @Published var isLoading = false
-//    @Published var errorMessage: String?
-//
-//    
-//    func fetchDashboardData(userId: String) {
-//        let url =  baseUrl + "dashboard?userid=\(userId)"
-//
-//        
-//        isLoading = true
-//           errorMessage = nil
-//        print(url)
-//           AF.request(url, method: .get)
-//            .cURLDescription { print($0) }
-//               .validate()
-//               .responseDecodable(of: HomeModel.self) { response in
-//                   self.isLoading = false
-//                   
-//                   switch response.result {
-//                       
-//                   case .success(let homeModel):
-//                       print("Fetched HomeModel: \(homeModel)")
-//                       print("Tickets: \(homeModel.tickets ?? [])")
-//                       self.homeModel = homeModel
-//                   case .failure(let error):
-//                       print("Error fetching HomeModel: \(error)")
-//                       self.errorMessage = error.localizedDescription
-//                   }
-//               }
-//        
-//    }
-//}
 
 
 import Foundation
